@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:b.hatena.ne.jp)",
+      "WebFetch(domain:news.ycombinator.com)",
+      "Bash(curl:*)",
+      "Bash(grep:*)",
+      "Bash(mkdir:*)",
+      "Bash(mv:*)",
+      "Bash(rm:*)",
+      "Bash(sed:*)",
+      "Bash(find:*)",
+      "Bash(awk:*)",
+      "Bash(head:*)",
+      "Bash(ls:*)",
+      "Bash(jq -r \".data.children[] | \"\"\\\\\\(.data.title\\)|\\\\\\(.data.ups\\)|\\\\\\(.data.num_comments\\)|https://www.reddit.com\\\\\\(.data.permalink\\)\"\"\")",
+      "WebFetch(domain:www.aikido.dev)",
+      "WebFetch(domain:www.wiz.io)"
+    ]
+  }
+}
