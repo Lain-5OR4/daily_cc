@@ -15,7 +15,11 @@
       "Bash(ls:*)",
       "Bash(jq -r \".data.children[] | \"\"\\\\\\(.data.title\\)|\\\\\\(.data.ups\\)|\\\\\\(.data.num_comments\\)|https://www.reddit.com\\\\\\(.data.permalink\\)\"\"\")",
       "WebFetch(domain:www.aikido.dev)",
-      "WebFetch(domain:www.wiz.io)"
+      "WebFetch(domain:www.wiz.io)",
+      "Bash(for sub:*)",
+      "Bash(do echo:*)",
+      "Bash(jq -r \".data.children[] | \"\"\\\\\\(.data.title\\)|\\\\\\(.data.ups\\)|\\\\\\(.data.num_comments\\)|https://www.reddit.com\\\\\\(.data.permalink\\)\"\"\" 2)",
+      "Bash(/dev/null echo:*)"
     ]
   }
 }
